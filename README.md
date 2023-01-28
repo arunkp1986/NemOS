@@ -34,11 +34,11 @@ https://www.gem5.org/documentation/learning_gem5/part1/building/
 
 4>the terminal after connecting to "telnet" will show gemOS prompt as below
 
-**GemOS# **
+**GemOS#**
 
 5> To run your user program in **init.c**, type **init** command on **GemOS# ** as below
 
-**GemOS# init **
+**GemOS# init**
 
 6> The init program executes and you can see output
 
