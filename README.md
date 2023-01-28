@@ -6,7 +6,7 @@ an open-source framework, NemOS, based on gem5 and gemOS for hybrid memory explo
 ## Build gem5 using instructions 
 =====================================
 
-1> The gem5 folder contains **ssp** modifications, build gem5 by following in below link, except the step to clone gem5 source "git clone https://gem5.googlesource.com/public/gem5"
+1> The gem5 folder contains **ssp** modifications, build gem5 by following below link, except the step to clone gem5 source "git clone https://gem5.googlesource.com/public/gem5"
 
 https://www.gem5.org/documentation/learning_gem5/part1/building/
 
