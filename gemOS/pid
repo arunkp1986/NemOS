@@ -1,0 +1,47 @@
+./mmap.c:	list_add_tail(&log0->list, &cs->log);
+./mmap.c:	        list_add_tail(&log1->list, &cs->log);
+./mmap.c:	        list_add_tail(&log2->list, &cs->log);
+./mmap.c:	    list_add_tail(&log3->list, &cs->log);
+./mmap.c:	    list_add_tail(&log4->list, &cs->log); 
+./mmap.c:	                        list_add_tail(&log1->list, &cs->log);
+./mmap.c:	                        list_add_tail(&log2->list, &cs->log);
+./mmap.c:	                        list_add_tail(&log3->list, &cs->log);
+./mmap.c:	                    list_add_tail(&log4->list, &cs->log);
+./mmap.c:	                    list_add_tail(&log5->list, &cs->log);
+./mmap.c:	    list_add_tail(&log->list, &cs->log);
+./mmap.c:	            list_add_tail(&log1->list, &cs->log);
+./mmap.c:	                    list_add_tail(&log2->list, &cs->log);
+./mmap.c:	                    list_add_tail(&log3->list, &cs->log);
+./mmap.c:	            list_add_tail(&log4->list, &cs->log);
+./mmap.c:	            list_add_tail(&log5->list, &cs->log);
+./mmap.c:	            list_add_tail(&log6->list, &cs->log);
+./checkpoint.c:                list_add_tail(&me->list, &cs->nv_mappings);
+./checkpoint.c:                    list_add_tail(&me->list, &cs->nv_mappings);
+./checkpoint.c:    list_for_each(temp,&cs->nv_stack){
+./checkpoint.c:        cs->latest = 0;
+./checkpoint.c:        cs->state = INITIAL;
+./checkpoint.c:        saved_ctx = cs->context[cs->latest];
+./checkpoint.c:        cs->state = INITIAL;
+./checkpoint.c:        saved_ctx = cs->context[cs->latest];
+./checkpoint.c:	temp = (cs->log).next;
+./checkpoint.c:	while( next && next != &cs->log ){
+./checkpoint.c:	init_list_head(&cs->log);
+./checkpoint.c:	temp = (cs->nv_stack).next;
+./checkpoint.c:	while( next && next != &cs->nv_stack ){
+./checkpoint.c:	init_list_head(&cs->nv_stack);
+./checkpoint.c:        /*list_for_each(temp,&cs->nv_stack){
+./checkpoint.c:    saved_ctx = cs->context[cs->latest];
+./checkpoint.c:    update_ctx = cs->context[(cs->latest+1)%2];
+./checkpoint.c:    list_for_each(temp,&cs->log){
+./checkpoint.c:                list_add_tail(&me->list, &cs->nv_mappings);
+./checkpoint.c:                    list_add_tail(&me->list, &cs->nv_mappings);
+./checkpoint.c:    list_add_tail(&log->list, &cs->log);
+./checkpoint.c:    list_for_each(temp,&cs->nv_mappings){
+./checkpoint.c:    cs->state = MAPPING;
+./checkpoint.c:    cs->state = MODIFYING;
+./checkpoint.c:    cs->latest = (cs->latest+1)%2;
+./checkpoint.c:    cs->state = UPDATED;
+./dirty.c:	    list_add_tail(&se->list, &cs->nv_stack);
+./nonvolatile.c:        list_add_tail(&me->list, &cs->nv_mappings);
+./nonvolatile.c:    list_for_each(temp,&cs->nv_mappings){
+./nonvolatile.c:    list_for_each(temp,&cs->nv_mappings){

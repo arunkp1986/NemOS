@@ -1,0 +1,836 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+APIC_DFR_OFFSET	include/apic.h	9;"	d
+APIC_EOI_OFFSET	include/apic.h	7;"	d
+APIC_ERROR_STATUS_OFFSET	include/apic.h	11;"	d
+APIC_ID_OFFSET	include/apic.h	4;"	d
+APIC_INTERVAL	apic.c	19;"	d	file:
+APIC_LDR_OFFSET	include/apic.h	8;"	d
+APIC_LVT_ERROR_OFFSET	include/apic.h	16;"	d
+APIC_LVT_LINT0_OFFSET	include/apic.h	14;"	d
+APIC_LVT_LINT1_OFFSET	include/apic.h	15;"	d
+APIC_LVT_PMU_OFFSET	include/apic.h	13;"	d
+APIC_LVT_TIMER_OFFSET	include/apic.h	12;"	d
+APIC_SPURIOUS_VECTOR_OFFSET	include/apic.h	10;"	d
+APIC_TIMER	include/idt.h	22;"	d
+APIC_TIMER_CURRENT_COUNT_OFFSET	include/apic.h	18;"	d
+APIC_TIMER_DIVIDE_CONFIG_OFFSET	include/apic.h	19;"	d
+APIC_TIMER_INIT_COUNT_OFFSET	include/apic.h	17;"	d
+APIC_TPR_OFFSET	include/apic.h	6;"	d
+APIC_VERSION_OFFSET	include/apic.h	5;"	d
+AS	Makefile	/^AS = as $/;"	m
+ASFLAGS	Makefile	/^ASFLAGS = --64  $/;"	m
+BAUD	include/serial.h	24;"	d
+CAPS_ON	include/kbd.h	/^       CAPS_ON,$/;"	e	enum:__anon8
+CFLAGS	Makefile	/^CFLAGS  = -g -nostdlib -nostdinc -fno-builtin -fno-stack-protector -fpic -m64 -I.\/include -I..\/include $/;"	m
+CNAME_MAX	include/context.h	7;"	d
+CODE_PAGES	include/context.h	38;"	d
+CODE_START	include/context.h	32;"	d
+CREATE_EXEC	include/file.h	15;"	d
+CREATE_EXEC	user/ulib.h	78;"	d
+CREATE_READ	include/file.h	13;"	d
+CREATE_READ	user/ulib.h	76;"	d
+CREATE_WRITE	include/file.h	14;"	d
+CREATE_WRITE	user/ulib.h	77;"	d
+DATA_START	include/context.h	34;"	d
+DECLARE_MSG	user/init_args.c	96;"	d	file:
+DECLARE_MSG	user/init_clone.c	86;"	d	file:
+DLAB	include/serial.h	10;"	d
+DLH	include/serial.h	22;"	d
+DLL	include/serial.h	21;"	d
+EACCES	include/entry.h	42;"	d
+EAGAIN	include/entry.h	40;"	d
+EBUSY	include/entry.h	41;"	d
+EINVAL	include/entry.h	39;"	d
+END	include/fs.h	5;"	d
+ENDMEM	include/memory.h	30;"	d
+ENOMEM	include/entry.h	43;"	d
+EXEC_CTX_BOOT	include/context.h	/^           EXEC_CTX_BOOT,$/;"	e	enum:__anon6
+EXEC_CTX_OS	include/context.h	/^           EXEC_CTX_OS,$/;"	e	enum:__anon6
+EXEC_CTX_USER	include/context.h	/^           EXEC_CTX_USER,$/;"	e	enum:__anon6
+EXITING	include/schedule.h	/^                       EXITING,$/;"	e	enum:process_state
+FAULT_DIVZERO	include/idt.h	16;"	d
+FAULT_GP	include/idt.h	17;"	d
+FAULT_PF	include/idt.h	18;"	d
+FCR	include/serial.h	16;"	d
+FILE_DS_REG	include/memory.h	/^         FILE_DS_REG,$/;"	e	enum:__anon1
+FILE_SIZE	include/fs.h	7;"	d
+FILE_STORE_REG	include/memory.h	/^         FILE_STORE_REG,$/;"	e	enum:__anon1
+FLAG_MASK	apic.c	21;"	d	file:
+FLAG_MASK	include/memory.h	20;"	d
+HANDLER	user/init_clone.c	80;"	d	file:
+IA32_APIC_BASE_MSR	include/apic.h	2;"	d
+IDTR	include/idt.h	/^struct IDTR{$/;"	s
+IDT_DESC_TYPE_INT_HW	include/idt.h	13;"	d
+IDT_DESC_TYPE_INT_SW	include/idt.h	12;"	d
+IDT_DESC_TYPE_KTRAP	include/idt.h	11;"	d
+IDT_DESC_TYPE_UTRAP	include/idt.h	10;"	d
+IER	include/serial.h	14;"	d
+IIR	include/serial.h	15;"	d
+IRQ_SPURIOUS	include/idt.h	23;"	d
+KBD_CDATA_BIT	include/kbd.h	8;"	d
+KBD_CTRL_PORT	include/kbd.h	6;"	d
+KBD_DATA_PORT	include/kbd.h	7;"	d
+KBD_DDATA_BIT	include/kbd.h	9;"	d
+KBRD_RESET	include/kbd.h	10;"	d
+LCR	include/serial.h	17;"	d
+LDFLAGS	Makefile	/^LDFLAGS = -nostdlib -nodefaultlibs  -q -melf_x86_64 -Tlink64.ld$/;"	m
+LSHIFT	include/kbd.h	/^       LSHIFT,$/;"	e	enum:__anon8
+LSR	include/serial.h	19;"	d
+MAP_FIXED	include/mmap.h	12;"	d
+MAP_FIXED	user/ulib.h	62;"	d
+MAP_POPULATE	include/mmap.h	13;"	d
+MAP_POPULATE	user/ulib.h	63;"	d
+MAP_RD	include/memory.h	36;"	d
+MAP_RD	user/ulib.h	56;"	d
+MAP_WR	include/memory.h	37;"	d
+MAP_WR	user/init_args.c	101;"	d	file:
+MAP_WR	user/init_clone.c	121;"	d	file:
+MAP_WR	user/ulib.h	57;"	d
+MAX_CTX	include/context.h	/^           MAX_CTX$/;"	e	enum:__anon6
+MAX_EXPAND_PAGES	include/entry.h	47;"	d
+MAX_FILE_TYPE	include/file.h	/^    MAX_FILE_TYPE,$/;"	e	enum:__anon3
+MAX_MM_SEGS	include/context.h	/^          MAX_MM_SEGS$/;"	e	enum:__anon7
+MAX_OPEN_FILES	include/context.h	10;"	d
+MAX_PROCESSES	include/context.h	8;"	d
+MAX_REG	include/memory.h	/^         MAX_REG$/;"	e	enum:__anon1
+MAX_SEEK	include/file.h	/^      MAX_SEEK,$/;"	e	enum:__anon4
+MAX_SEEK	user/ulib.h	/^      MAX_SEEK,$/;"	e	enum:__anon9
+MAX_SIGNALS	include/schedule.h	/^               MAX_SIGNALS$/;"	e	enum:signals
+MAX_STACK_SIZE	include/context.h	40;"	d
+MAX_STATE	include/schedule.h	/^                       MAX_STATE$/;"	e	enum:process_state
+MAX_WRITE_LEN	include/entry.h	46;"	d
+MB_BIOS_ACPI_RECLAIM	include/types.h	47;"	d
+MB_BIOS_AVAILABLE	include/types.h	45;"	d
+MB_BIOS_BAD	include/types.h	49;"	d
+MB_BIOS_HIBERNATION	include/types.h	48;"	d
+MB_BIOS_RESERVED	include/types.h	46;"	d
+MB_HANDSHAKE	include/types.h	40;"	d
+MCR	include/serial.h	18;"	d
+MMAP_AREA_END	include/mmap.h	10;"	d
+MMAP_AREA_START	include/mmap.h	9;"	d
+MMAP_START	include/context.h	35;"	d
+MM_EX	include/context.h	28;"	d
+MM_RD	include/context.h	26;"	d
+MM_SEG_CODE	include/context.h	/^          MM_SEG_CODE,$/;"	e	enum:__anon7
+MM_SEG_DATA	include/context.h	/^          MM_SEG_DATA,$/;"	e	enum:__anon7
+MM_SEG_RODATA	include/context.h	/^          MM_SEG_RODATA,$/;"	e	enum:__anon7
+MM_SEG_STACK	include/context.h	/^          MM_SEG_STACK,$/;"	e	enum:__anon7
+MM_SH	include/context.h	29;"	d
+MM_WR	include/context.h	27;"	d
+MSG	user/init_args.c	95;"	d	file:
+MSG	user/init_clone.c	85;"	d	file:
+MSR	include/serial.h	20;"	d
+NEW	include/schedule.h	/^                       NEW,$/;"	e	enum:process_state
+NODE_MEM_PAGES	include/memory.h	77;"	d
+NONE	user/ulib.h	61;"	d
+NULL	include/types.h	3;"	d
+NULL	user/ulib.h	4;"	d
+NUM_FILES	include/fs.h	4;"	d
+NUM_IDT_ENTRY	include/idt.h	14;"	d
+NUM_PAGES	include/memory.h	39;"	d
+OBJS	Makefile	/^OBJS = boot.o main.o lib.o idt.o kbd.o shell.o serial.o memory.o context.o entry.o apic.o schedule.o mmap.o cfork.o page.o  fs.o file.o pipe.o$/;"	m
+OSALLOC_1024	include/memory.h	/^        OSALLOC_1024,$/;"	e	enum:__anon2
+OSALLOC_128	include/memory.h	/^        OSALLOC_128,$/;"	e	enum:__anon2
+OSALLOC_2048	include/memory.h	/^        OSALLOC_2048,$/;"	e	enum:__anon2
+OSALLOC_256	include/memory.h	/^        OSALLOC_256,$/;"	e	enum:__anon2
+OSALLOC_32	include/memory.h	/^        OSALLOC_32,$/;"	e	enum:__anon2
+OSALLOC_512	include/memory.h	/^        OSALLOC_512,$/;"	e	enum:__anon2
+OSALLOC_64	include/memory.h	/^        OSALLOC_64,$/;"	e	enum:__anon2
+OSALLOC_MAX	include/memory.h	/^        OSALLOC_MAX$/;"	e	enum:__anon2
+OS_DS_REG	include/memory.h	/^         OS_DS_REG,$/;"	e	enum:__anon1
+OS_PT_MAPS	include/memory.h	33;"	d
+OS_PT_REG	include/memory.h	/^         OS_PT_REG,$/;"	e	enum:__anon1
+O_CREAT	include/file.h	9;"	d
+O_CREAT	user/ulib.h	74;"	d
+O_EXEC	include/file.h	8;"	d
+O_EXEC	user/ulib.h	73;"	d
+O_RDONLY	user/ulib.h	69;"	d
+O_RDWR	include/file.h	7;"	d
+O_RDWR	user/ulib.h	72;"	d
+O_READ	include/file.h	5;"	d
+O_READ	user/ulib.h	68;"	d
+O_WRITE	include/file.h	6;"	d
+O_WRITE	user/ulib.h	70;"	d
+O_WRONLY	user/ulib.h	71;"	d
+PAGE_SHIFT	include/memory.h	6;"	d
+PAGE_SIZE	include/memory.h	5;"	d
+PGD_MASK	apic.c	9;"	d	file:
+PGD_MASK	include/memory.h	9;"	d
+PGD_SHIFT	apic.c	14;"	d	file:
+PGD_SHIFT	include/memory.h	14;"	d
+PIPE	include/file.h	/^    PIPE,$/;"	e	enum:__anon3
+PIPE_MAX_SIZE	include/pipe.h	9;"	d
+PMD_MASK	apic.c	11;"	d	file:
+PMD_MASK	include/memory.h	11;"	d
+PMD_SHIFT	apic.c	16;"	d	file:
+PMD_SHIFT	include/memory.h	16;"	d
+PROT_EXEC	include/mmap.h	17;"	d
+PROT_READ	include/mmap.h	15;"	d
+PROT_READ	user/ulib.h	65;"	d
+PROT_WRITE	include/mmap.h	16;"	d
+PROT_WRITE	user/ulib.h	66;"	d
+PTE_MASK	apic.c	12;"	d	file:
+PTE_MASK	include/memory.h	12;"	d
+PTE_SHIFT	apic.c	17;"	d	file:
+PTE_SHIFT	include/memory.h	17;"	d
+PUD_MASK	apic.c	10;"	d	file:
+PUD_MASK	include/memory.h	10;"	d
+PUD_SHIFT	apic.c	15;"	d	file:
+PUD_SHIFT	include/memory.h	15;"	d
+RCVRDY	include/serial.h	8;"	d
+READY	include/schedule.h	/^                       READY,$/;"	e	enum:process_state
+REGION_FILE_DS_START	include/memory.h	28;"	d
+REGION_FILE_STORE_START	include/memory.h	29;"	d
+REGION_OS_DS_START	include/memory.h	25;"	d
+REGION_OS_PT_START	include/memory.h	26;"	d
+REGION_USER_START	include/memory.h	27;"	d
+REGULAR	include/file.h	/^    REGULAR,$/;"	e	enum:__anon3
+RODATA_START	include/context.h	33;"	d
+RSHIFT	include/kbd.h	/^       RSHIFT,$/;"	e	enum:__anon8
+RUNNING	include/schedule.h	/^                       RUNNING,$/;"	e	enum:process_state
+RXR	include/serial.h	13;"	d
+SC_CAPS	include/kbd.h	13;"	d
+SC_ERROR	include/kbd.h	12;"	d
+SC_LSFT	include/kbd.h	14;"	d
+SC_LSFT_REL	include/kbd.h	17;"	d
+SC_RSFT	include/kbd.h	15;"	d
+SC_RSFT_REL	include/kbd.h	18;"	d
+SEEK_CUR	include/file.h	/^      SEEK_CUR,$/;"	e	enum:__anon4
+SEEK_CUR	user/ulib.h	/^      SEEK_CUR,$/;"	e	enum:__anon9
+SEEK_END	include/file.h	/^      SEEK_END,$/;"	e	enum:__anon4
+SEEK_END	user/ulib.h	/^      SEEK_END,$/;"	e	enum:__anon9
+SEEK_SET	include/file.h	/^      SEEK_SET,$/;"	e	enum:__anon4
+SEEK_SET	user/ulib.h	/^      SEEK_SET,$/;"	e	enum:__anon9
+SIGALRM	include/schedule.h	/^               SIGALRM,$/;"	e	enum:signals
+SIGFPE	include/schedule.h	/^               SIGFPE,$/;"	e	enum:signals
+SIGSEGV	include/schedule.h	/^               SIGSEGV,$/;"	e	enum:signals
+SRCS	Makefile	/^SRCS = main.c lib.c idt.c kbd.c shell.c serial.c memory.c context.c entry.c apic.c schedule.c mmap.c cfork.c page.c fs.c file.c pipe.c$/;"	m
+STACK_START	include/context.h	36;"	d
+STDERR	include/file.h	/^    STDERR,$/;"	e	enum:__anon3
+STDIN	include/file.h	/^    STDIN,$/;"	e	enum:__anon3
+STDOUT	include/file.h	/^    STDOUT,$/;"	e	enum:__anon3
+SYSCALL_ALARM	include/entry.h	10;"	d
+SYSCALL_ALARM	user/ulib.h	29;"	d
+SYSCALL_CFORK	include/entry.h	19;"	d
+SYSCALL_CFORK	user/ulib.h	38;"	d
+SYSCALL_CLONE	include/entry.h	13;"	d
+SYSCALL_CLONE	user/ulib.h	32;"	d
+SYSCALL_CLOSE	include/entry.h	33;"	d
+SYSCALL_CLOSE	user/ulib.h	52;"	d
+SYSCALL_CONFIGURE	include/entry.h	16;"	d
+SYSCALL_CONFIGURE	user/ulib.h	35;"	d
+SYSCALL_DUMP_PTT	include/entry.h	18;"	d
+SYSCALL_DUMP_PTT	user/ulib.h	37;"	d
+SYSCALL_DUP	include/entry.h	31;"	d
+SYSCALL_DUP	user/ulib.h	50;"	d
+SYSCALL_DUP2	include/entry.h	32;"	d
+SYSCALL_DUP2	user/ulib.h	51;"	d
+SYSCALL_EXIT	include/entry.h	6;"	d
+SYSCALL_EXIT	user/ulib.h	25;"	d
+SYSCALL_EXPAND	include/entry.h	8;"	d
+SYSCALL_EXPAND	user/ulib.h	27;"	d
+SYSCALL_FORK	include/entry.h	14;"	d
+SYSCALL_FORK	user/ulib.h	33;"	d
+SYSCALL_GETPID	include/entry.h	7;"	d
+SYSCALL_GETPID	user/ulib.h	26;"	d
+SYSCALL_GET_COW_F	include/entry.h	26;"	d
+SYSCALL_GET_COW_F	user/ulib.h	45;"	d
+SYSCALL_GET_USER_P	include/entry.h	25;"	d
+SYSCALL_GET_USER_P	user/ulib.h	44;"	d
+SYSCALL_IDT	include/idt.h	19;"	d
+SYSCALL_LSEEK	include/entry.h	34;"	d
+SYSCALL_LSEEK	user/ulib.h	53;"	d
+SYSCALL_MMAP	include/entry.h	20;"	d
+SYSCALL_MMAP	user/ulib.h	39;"	d
+SYSCALL_MPROTECT	include/entry.h	22;"	d
+SYSCALL_MPROTECT	user/ulib.h	41;"	d
+SYSCALL_MUNMAP	include/entry.h	21;"	d
+SYSCALL_MUNMAP	user/ulib.h	40;"	d
+SYSCALL_OPEN	include/entry.h	27;"	d
+SYSCALL_OPEN	user/ulib.h	46;"	d
+SYSCALL_PHYS_INFO	include/entry.h	17;"	d
+SYSCALL_PHYS_INFO	user/ulib.h	36;"	d
+SYSCALL_PIPE	include/entry.h	30;"	d
+SYSCALL_PIPE	user/ulib.h	49;"	d
+SYSCALL_PMAP	include/entry.h	23;"	d
+SYSCALL_PMAP	user/ulib.h	42;"	d
+SYSCALL_READ	include/entry.h	28;"	d
+SYSCALL_READ	user/ulib.h	47;"	d
+SYSCALL_SHRINK	include/entry.h	9;"	d
+SYSCALL_SHRINK	user/ulib.h	28;"	d
+SYSCALL_SIGNAL	include/entry.h	12;"	d
+SYSCALL_SIGNAL	user/ulib.h	31;"	d
+SYSCALL_SLEEP	include/entry.h	11;"	d
+SYSCALL_SLEEP	user/ulib.h	30;"	d
+SYSCALL_STATS	include/entry.h	15;"	d
+SYSCALL_STATS	user/ulib.h	34;"	d
+SYSCALL_VFORK	include/entry.h	24;"	d
+SYSCALL_VFORK	user/ulib.h	43;"	d
+SYSCALL_WRITE	include/entry.h	29;"	d
+SYSCALL_WRITE	user/ulib.h	48;"	d
+TXR	include/serial.h	12;"	d
+UNUSED	include/schedule.h	/^                       UNUSED,$/;"	e	enum:process_state
+USER_CFLAGS	Makefile	/^USER_CFLAGS  = -nostdlib -nostdinc -fno-builtin -fno-stack-protector -fpic -m64 -I.\/user\/$/;"	m
+USER_REG	include/memory.h	/^         USER_REG,$/;"	e	enum:__anon1
+WAITING	include/schedule.h	/^                       WAITING,$/;"	e	enum:process_state
+XMTRDY	include/serial.h	7;"	d
+_DEBIX_LIB_H_	include/lib.h	2;"	d
+_DEBIX_TYPE_H_	include/types.h	2;"	d
+__CONTEXT_H_	include/context.h	2;"	d
+__ENTRY_S_	include/entry.h	2;"	d
+__FILE_H_	include/file.h	2;"	d
+__FS_H_	include/fs.h	2;"	d
+__IDT_H_	include/idt.h	2;"	d
+__INIT_H_	include/init.h	2;"	d
+__KBD_H_	include/kbd.h	2;"	d
+__MEMORY_H_	include/memory.h	2;"	d
+__MMAP_H_	include/mmap.h	2;"	d
+__PIPE_H_	include/pipe.h	2;"	d
+__SCHEDULE_H_	include/schedule.h	2;"	d
+__SERIAL_H_	include/serial.h	2;"	d
+__ULIB_H__	user/ulib.h	2;"	d
+_start	boot_64.S	/^_start:$/;"	l
+_syscall0	user/init_args.c	/^static long _syscall0(int syscall_num)$/;"	f	file:
+_syscall0	user/init_clone.c	/^static long _syscall0(int syscall_num)$/;"	f	file:
+_syscall0	user/lib.c	/^static long _syscall0(int syscall_num)$/;"	f	file:
+_syscall1	user/init_args.c	/^static long _syscall1(int syscall_num, long exit_code)$/;"	f	file:
+_syscall1	user/init_clone.c	/^static long _syscall1(int syscall_num, int exit_code)$/;"	f	file:
+_syscall1	user/lib.c	/^static long _syscall1(int syscall_num, long exit_code)$/;"	f	file:
+_syscall2	user/init_args.c	/^static long _syscall2(int syscall_num, u64 arg1, u64 arg2)$/;"	f	file:
+_syscall2	user/init_clone.c	/^static long _syscall2(int syscall_num, u64 arg1, u64 arg2)$/;"	f	file:
+_syscall2	user/lib.c	/^static long _syscall2(int syscall_num, u64 arg1, u64 arg2)$/;"	f	file:
+_syscall3	user/lib.c	/^static long _syscall3(int syscall_num, u64 arg1, u64 arg2, u64 arg3)$/;"	f	file:
+_syscall4	user/lib.c	/^static long _syscall4(int syscall_num, u64 arg1, u64 arg2, u64 arg3, u64 arg4)$/;"	f	file:
+ac_byte	include/idt.h	/^                    u8  ac_byte;$/;"	m	struct:gdt_entry
+access_flags	include/context.h	/^                   u32 access_flags;   \/*R=1, W=2, X=4, S=8*\/ $/;"	m	struct:mm_segment
+access_flags	include/context.h	/^        u32 access_flags;  \/\/ Access rights or protection flags of the vm_area\/*R=1, W=2, X=4*\/$/;"	m	struct:vm_area
+ack_irq	apic.c	/^void ack_irq()$/;"	f
+addr	include/types.h	/^       u64 addr;$/;"	m	struct:multiboot_memory_map
+adv_global	include/entry.h	/^                u64 adv_global; $/;"	m	struct:os_configs
+adv_global	user/ulib.h	/^                u64 adv_global; $/;"	m	struct:os_configs
+alarm_config_time	include/context.h	/^             u32 alarm_config_time;   \/*Alarm ticks set by alarm() system call*\/$/;"	m	struct:exec_context
+alloc_file	file.c	/^struct file *alloc_file()$/;"	f
+alloc_inodes	fs.c	/^void alloc_inodes(struct super_block *sb)$/;"	f
+alloc_pipe_info	pipe.c	/^struct pipe_info* alloc_pipe_info()$/;"	f
+alloc_vm_area	include/mmap.h	/^static struct vm_area * alloc_vm_area()$/;"	f
+apic_base	apic.c	/^static unsigned long apic_base;$/;"	v	file:
+apic_tick_interval	include/entry.h	/^                u64 apic_tick_interval;$/;"	m	struct:os_configs
+apic_tick_interval	user/ulib.h	/^                u64 apic_tick_interval;$/;"	m	struct:os_configs
+base	include/idt.h	/^               u64 base;$/;"	m	struct:IDTR
+base	serial.c	/^static u16 base = 0x3f8;  \/* ttyS0 *\/;$/;"	v	file:
+base_high	include/idt.h	/^                    u8  base_high;     $/;"	m	struct:gdt_entry
+base_low	include/idt.h	/^                    u16 base_low;$/;"	m	struct:gdt_entry
+base_mid	include/idt.h	/^                    u8  base_mid;$/;"	m	struct:gdt_entry
+bitmap	include/memory.h	/^                   void *bitmap;$/;"	m	struct:page_list
+bitmap	include/memory.h	/^                  char bitmap[16];   \/*current page bitmap*\/$/;"	m	struct:osalloc_chunk
+bootdev	include/types.h	/^                     u32 bootdev;$/;"	m	struct:multiboot_info
+buff	lib.c	/^static char buff[4096];$/;"	v	file:
+buffer_offset	include/pipe.h	/^    int buffer_offset;  \/\/ current buffer length$/;"	m	struct:pipe_info
+bzero	lib.c	/^void bzero(char *ptr,int length){$/;"	f
+cfork	user/lib.c	/^long cfork()$/;"	f
+cfork_copy_mm	cfork.c	/^void cfork_copy_mm(struct exec_context *child, struct exec_context *parent ){$/;"	f
+chunk_size	include/memory.h	/^                  u16 chunk_size;$/;"	m	struct:osalloc_chunk
+clear_bit	include/lib.h	13;"	d
+clflush	apic.c	/^static void clflush(void *addr)$/;"	f	file:
+clone	user/init_args.c	/^int clone(void (func)(void), long stack_addr)$/;"	f
+clone	user/init_clone.c	/^int clone(void (func)(void), long stack_addr)$/;"	f
+clone	user/lib.c	/^long clone(void (func)(void), long stack_addr)$/;"	f
+close	include/file.h	/^    long (*close)(struct file *filep);$/;"	m	struct:fileops
+close	include/fs.h	/^    int (*close) (struct inode *inode);$/;"	m	struct:inode
+close	user/lib.c	/^int close(int fd)$/;"	f
+cmdline	include/types.h	/^                     u32 cmdline;$/;"	m	struct:multiboot_info
+config	main.c	/^struct os_configs *config = NULL;$/;"	v	typeref:struct:os_configs
+configure	user/init_args.c	/^static long configure(struct os_configs *new_config)$/;"	f	file:
+configure	user/lib.c	/^long configure(struct os_configs *new_config)$/;"	f
+console_init	lib.c	/^void console_init(){$/;"	f
+context_switches	include/entry.h	/^                u64 context_switches;$/;"	m	struct:os_stats
+context_switches	user/ulib.h	/^                u64 context_switches;$/;"	m	struct:os_stats
+copy_mm	context.c	/^void copy_mm(struct exec_context *child, struct exec_context *parent)$/;"	f
+copy_os_pts	context.c	/^void copy_os_pts(u64 src, u64 dst)$/;"	f
+copy_vm_area_ptable	cfork.c	/^void copy_vm_area_ptable(struct exec_context *child, struct exec_context *parent, struct vm_area * vm_area){$/;"	f
+cow_page_faults	include/entry.h	/^                u64 cow_page_faults;$/;"	m	struct:os_stats
+cow_page_faults	user/ulib.h	/^                u64 cow_page_faults;$/;"	m	struct:os_stats
+create_context	context.c	/^struct exec_context *create_context(char *name, u8 type)$/;"	f
+create_idt	idt.c	/^static void create_idt(struct idt_entry *e, u8 type, unsigned long callback, int ist)$/;"	f	file:
+create_inode	fs.c	/^struct inode *create_inode (char *filename, u64 mode)$/;"	f
+create_inode	include/fs.h	/^    int (*create_inode) (struct super_block *sb, char *filename, u32 mode);$/;"	m	struct:sb_operations
+create_null_idt	idt.c	/^static inline void create_null_idt(struct idt_entry *e)$/;"	f	file:
+create_pipe	pipe.c	/^int create_pipe(struct exec_context *current, int *fd)$/;"	f
+create_standard_IO	file.c	/^struct file *create_standard_IO(int type)$/;"	f
+create_vm_area	mmap.c	/^struct vm_area* create_vm_area(u64 start_addr, u64 end_addr, u32 flags)$/;"	f
+ctx_list	context.c	/^static struct exec_context *ctx_list;$/;"	v	typeref:struct:exec_context	file:
+current	context.c	/^static struct exec_context *current; $/;"	v	typeref:struct:exec_context	file:
+current_pfn	include/memory.h	/^                  u32 current_pfn;$/;"	m	struct:osalloc_chunk
+dealloc_vm_area	include/mmap.h	/^static void dealloc_vm_area(struct vm_area *vm)$/;"	f
+debug	include/entry.h	/^                u64 debug;$/;"	m	struct:os_configs
+debug	user/ulib.h	/^                u64 debug;$/;"	m	struct:os_configs
+decrement_pfn_info_refcount	page.c	/^void decrement_pfn_info_refcount(struct pfn_info * p){$/;"	f
+delete_file	file.c	/^static void delete_file(struct file *filep)$/;"	f	file:
+dequeue_front	lib.c	/^struct node * dequeue_front(struct list *l)$/;"	f
+do_alarm	entry.c	/^static long do_alarm(u32 ticks) $/;"	f	file:
+do_cfork	entry.c	/^static long do_cfork(){$/;"	f	file:
+do_cleanup	context.c	/^void do_cleanup()$/;"	f
+do_clone	entry.c	/^static long do_clone(void *th_func, void *user_stack) $/;"	f	file:
+do_close	entry.c	/^int do_close(struct exec_context *ctx, int fd)$/;"	f
+do_create_pipe	entry.c	/^int do_create_pipe(struct exec_context *ctx, int* fd)$/;"	f
+do_div_by_zero	entry.c	/^extern int do_div_by_zero(struct user_regs *regs) {$/;"	f
+do_dup	entry.c	/^int do_dup(struct exec_context *ctx, int oldfd)$/;"	f
+do_dup2	entry.c	/^int do_dup2(struct exec_context *ctx, int oldfd, int newfd)$/;"	f
+do_exit	entry.c	/^void do_exit() $/;"	f
+do_expand	entry.c	/^static long do_expand(struct exec_context *ctx, u64 size, int segment_t)$/;"	f	file:
+do_file_exit	file.c	/^void do_file_exit(struct exec_context *ctx)$/;"	f
+do_file_fork	file.c	/^void do_file_fork(struct exec_context *child)$/;"	f
+do_file_open	entry.c	/^int do_file_open(struct exec_context *ctx,u64 filename, u64 flag, u64 mode)$/;"	f
+do_file_read	entry.c	/^int do_file_read(struct exec_context *ctx, u64 fd, u64 buff, u64 count){$/;"	f
+do_file_write	entry.c	/^int do_file_write(struct exec_context *ctx,u64 fd,u64 buff,u64 count){$/;"	f
+do_fork	entry.c	/^static long do_fork()$/;"	f	file:
+do_gp	idt.c	/^int do_gp (u64 error, u64 rip)$/;"	f
+do_irq	apic.c	/^int do_irq(struct user_regs *regs)$/;"	f
+do_lseek	entry.c	/^long do_lseek(struct exec_context *ctx, int fd, long offset, int whence)$/;"	f
+do_lseek_regular	file.c	/^static long do_lseek_regular(struct file *filep, long offset, int whence)$/;"	f	file:
+do_page_fault	entry.c	/^extern int do_page_fault(struct user_regs *regs, u64 error_code)$/;"	f
+do_read_kbd	file.c	/^static int do_read_kbd(struct file* filep, char * buff, u32 count)$/;"	f	file:
+do_read_regular	file.c	/^static int do_read_regular(struct file *filep, char * buff, u32 count)$/;"	f	file:
+do_regular_file_open	file.c	/^extern int do_regular_file_open(struct exec_context *ctx, char* filename, u64 flags, u64 mode)$/;"	f
+do_shrink	entry.c	/^static long do_shrink(struct exec_context *ctx, u64 size, int segment_t)$/;"	f	file:
+do_signal	entry.c	/^static long do_signal(int signo, unsigned long handler) $/;"	f	file:
+do_sleep	entry.c	/^static long do_sleep(u32 ticks) $/;"	f	file:
+do_sleep_and_alarm_account	schedule.c	/^static void do_sleep_and_alarm_account(struct user_regs *regs) $/;"	f	file:
+do_syscall	entry.c	/^long  do_syscall(int syscall, u64 param1, u64 param2, u64 param3, u64 param4)$/;"	f
+do_unmap_user	entry.c	/^int do_unmap_user(struct exec_context *ctx, u64 addr) $/;"	f
+do_vfork	entry.c	/^static long do_vfork(){$/;"	f	file:
+do_write	entry.c	/^ long do_write(struct exec_context *ctx, u64 address, u64 length)$/;"	f
+do_write_console	file.c	/^static int do_write_console(struct file* filep, char * buff, u32 count)$/;"	f	file:
+do_write_regular	file.c	/^static int do_write_regular(struct file *filep, char * buff, u32 count)$/;"	f	file:
+dprintk	include/lib.h	38;"	d
+dprintk	include/lib.h	40;"	d
+dsh_help	shell.c	/^void dsh_help(void)$/;"	f
+dump_page_table	user/lib.c	/^long dump_page_table(char *address)$/;"	f
+dup	user/lib.c	/^int dup(int oldfd)$/;"	f
+dup2	user/lib.c	/^int dup2(int oldfd, int newfd)$/;"	f
+e_pos	include/fs.h	/^    unsigned int e_pos;     \/\/ending position of file[ Max_File_Size]$/;"	m	struct:inode
+end	include/context.h	/^                   unsigned long end;$/;"	m	struct:mm_segment
+end	include/memory.h	/^                  void *end;$/;"	m	struct:nodealloc_memory
+end	include/page.h	/^    void * end;$/;"	m	struct:pfn_info_list
+enqueue_tail	lib.c	/^int enqueue_tail(struct list *l, u64 item)$/;"	f
+entry_cs	include/context.h	/^                    u64 entry_cs;  $/;"	m	struct:user_regs
+entry_rflags	include/context.h	/^                    u64 entry_rflags;$/;"	m	struct:user_regs
+entry_rip	include/context.h	/^                    u64 entry_rip;  $/;"	m	struct:user_regs
+entry_rsp	include/context.h	/^                    u64 entry_rsp;$/;"	m	struct:user_regs
+entry_ss	include/context.h	/^                    u64 entry_ss;$/;"	m	struct:user_regs
+error_code	boot_64.S	/^error_code:$/;"	l
+exec_context	include/context.h	/^struct exec_context{$/;"	s
+exec_init	context.c	/^int exec_init(struct exec_context *ctx, struct init_args *args)$/;"	f
+exit	user/init_args.c	/^static void exit(int code)$/;"	f	file:
+exit	user/init_clone.c	/^static void exit(int code)$/;"	f	file:
+exit	user/lib.c	/^void exit(int code)$/;"	f
+expand	user/init_args.c	/^static long expand(unsigned size, int flags) {$/;"	f	file:
+expand	user/init_clone.c	/^static long expand(unsigned size, int flags) {$/;"	f	file:
+expand	user/lib.c	/^long expand(unsigned size, int flags) {$/;"	f
+fd_dup	file.c	/^int fd_dup(struct exec_context *current, int oldfd)$/;"	f
+fd_dup2	file.c	/^int fd_dup2(struct exec_context *current, int oldfd, int newfd)$/;"	f
+file	include/file.h	/^struct file{$/;"	s
+file_objects	include/entry.h	/^                u64 file_objects;$/;"	m	struct:os_stats
+file_size	include/fs.h	/^    unsigned int file_size;  \/\/ file_size$/;"	m	struct:inode
+filename	include/fs.h	/^    char filename[256];$/;"	m	struct:inode
+fileops	include/file.h	/^struct fileops{$/;"	s
+files	include/context.h	/^             struct file* files[MAX_OPEN_FILES]; \/*To keep record of openfiles *\/$/;"	m	struct:exec_context	typeref:struct:exec_context::file
+flags	include/idt.h	/^                       flags:4;$/;"	m	struct:gdt_entry
+flags	include/types.h	/^                     u32 flags;$/;"	m	struct:multiboot_info
+flags_type	include/idt.h	/^                               u8 flags_type;$/;"	m	struct:idt_entry
+flat_close	fs.c	/^int flat_close(struct inode *inode)$/;"	f
+flat_create_inode	fs.c	/^int flat_create_inode(struct super_block *sb, char *file_name, u32 mode)$/;"	f
+flat_get_inode_no	fs.c	/^int flat_get_inode_no( struct super_block *sb, char *name)$/;"	f
+flat_get_num_files	fs.c	/^int flat_get_num_files( struct super_block *sb)$/;"	f
+flat_list_all_files	fs.c	/^void flat_list_all_files(struct super_block *sb, void *buf)$/;"	f
+flat_lookup_inode	fs.c	/^struct inode* flat_lookup_inode(struct super_block *sb, char *filename)$/;"	f
+flat_open	fs.c	/^int flat_open(struct inode *inode)$/;"	f
+flat_read	fs.c	/^int flat_read(struct inode *inode, char *buf, int count, int *offp)$/;"	f
+flat_remove_inode	fs.c	/^int flat_remove_inode(struct super_block *sb, struct inode *inode)$/;"	f
+flat_write	fs.c	/^int flat_write(struct inode *inode, char *buf, int count, int *offp)$/;"	f
+flip_bit	include/lib.h	12;"	d
+fops	include/file.h	/^    struct fileops * fops;$/;"	m	struct:file	typeref:struct:file::fileops
+fork	user/init_args.c	/^static long fork()$/;"	f	file:
+fork	user/lib.c	/^long fork()$/;"	f
+free_page	include/mmap.h	/^static void free_page(unsigned long pte_entry)$/;"	f
+free_pages	include/memory.h	/^                   u32 free_pages;$/;"	m	struct:page_list
+free_position	include/memory.h	/^                  u16 free_position;$/;"	m	struct:osalloc_chunk
+freelist	include/memory.h	/^                  struct list freelist;$/;"	m	struct:osalloc_chunk	typeref:struct:osalloc_chunk::list
+fs_name	include/fs.h	/^    char *fs_name;		\/\/Name$/;"	m	struct:super_block
+gdt_entry	include/idt.h	/^struct gdt_entry{$/;"	s
+get_contigous_pages	fs.c	/^u64 get_contigous_pages(u32 region, int number_of_pages)$/;"	f
+get_cow_fault_stats	user/lib.c	/^long get_cow_fault_stats()$/;"	f
+get_ctx_by_pid	context.c	/^struct exec_context *get_ctx_by_pid(u32 pid)$/;"	f
+get_ctx_list	context.c	/^struct exec_context *get_ctx_list()$/;"	f
+get_current_ctx	context.c	/^struct exec_context* get_current_ctx(void)$/;"	f
+get_end_addr	mmap.c	/^u64 get_end_addr(u64 start_addr, int length)$/;"	f
+get_free_inode	fs.c	/^static int get_free_inode( struct super_block *sb)$/;"	f	file:
+get_free_page	memory.c	/^static u32 get_free_page(struct page_list *pgl)$/;"	f	file:
+get_free_pages_region	memory.c	/^int get_free_pages_region(u32 region)$/;"	f
+get_inode	fs.c	/^static int get_inode(struct inode *inode)$/;"	f	file:
+get_inode_no	include/fs.h	/^    int (*get_inode_no) ( struct super_block *sb, char *name);$/;"	m	struct:sb_operations
+get_mem_region	include/memory.h	/^static inline int get_mem_region(u32 pfn)$/;"	f
+get_new_ctx	context.c	/^struct exec_context *get_new_ctx()$/;"	f
+get_num_files	include/fs.h	/^    int (*get_num_files) (struct super_block *sb);$/;"	m	struct:sb_operations
+get_num_pages	mmap.c	/^int get_num_pages(int length)$/;"	f
+get_pfn_info	page.c	/^struct pfn_info * get_pfn_info(u32 index){$/;"	f
+get_pfn_info_refcount	page.c	/^u8 get_pfn_info_refcount(struct pfn_info *p){$/;"	f
+get_stats	user/init_args.c	/^static long get_stats()$/;"	f	file:
+get_stats	user/lib.c	/^long get_stats()$/;"	f
+get_superblock	fs.c	/^struct super_block * get_superblock(){$/;"	f
+get_user_page_stats	user/lib.c	/^long get_user_page_stats()$/;"	f
+get_user_pte	entry.c	/^u64* get_user_pte(struct exec_context *ctx, u64 addr, int dump) $/;"	f
+get_vm_area	context.c	/^struct vm_area * get_vm_area(struct exec_context *ctx, u64 address){$/;"	f
+getpid	user/init_args.c	/^static long getpid()$/;"	f	file:
+getpid	user/init_clone.c	/^static long getpid()$/;"	f	file:
+getpid	user/lib.c	/^long getpid()$/;"	f
+global_mapping	include/entry.h	/^                u64 global_mapping;$/;"	m	struct:os_configs
+global_mapping	user/ulib.h	/^                u64 global_mapping;$/;"	m	struct:os_configs
+handle_cow_fault	cfork.c	/^int handle_cow_fault(struct exec_context *current, u64 cr2){$/;"	f
+handle_div_by_zero	boot_64.S	/^handle_div_by_zero:$/;"	l
+handle_gp	boot_64.S	/^handle_gp:$/;"	l
+handle_irq	boot_64.S	/^handle_irq:$/;"	l
+handle_page_fault	boot_64.S	/^handle_page_fault:$/;"	l
+handle_syscall	boot_64.S	/^handle_syscall:$/;"	l
+handle_timer_tick	schedule.c	/^int handle_timer_tick(struct user_regs *regs) $/;"	f
+hang	boot_64.S	/^hang:                      \/*Enter an infinite loop, to stop the processor*\/$/;"	l
+head	include/types.h	/^              struct node *head;$/;"	m	struct:list	typeref:struct:list::node
+idt	idt.c	/^static struct IDTR idt;$/;"	v	typeref:struct:IDTR	file:
+idt_entry	include/idt.h	/^struct idt_entry{$/;"	s
+idt_table_base	idt.c	/^static unsigned long idt_table_base;$/;"	v	file:
+inb	include/types.h	/^static inline u8  inb(u16 port)$/;"	f
+increment_pfn_info_refcount	page.c	/^void increment_pfn_info_refcount(struct pfn_info * p){$/;"	f
+init_apic	apic.c	/^void init_apic()$/;"	f
+init_args	include/init.h	/^struct init_args{$/;"	s
+init_file_inode	fs.c	/^void init_file_inode(struct super_block * super_block)$/;"	f
+init_file_system	fs.c	/^void init_file_system()$/;"	f
+init_list	include/lib.h	43;"	d
+init_mems	memory.c	/^void init_mems()$/;"	f
+init_nodealloc_memory	memory.c	/^static void init_nodealloc_memory()$/;"	f	file:
+init_osalloc_chunks	memory.c	/^static void init_osalloc_chunks()$/;"	f	file:
+init_pagelist	memory.c	/^static void init_pagelist(int type, u64 start, u64 end)$/;"	f	file:
+init_pagelists	memory.c	/^static void init_pagelists()$/;"	f	file:
+init_pfn_info_alloc_memory	memory.c	/^static void init_pfn_info_alloc_memory(){$/;"	f	file:
+init_start	user/init_args.c	/^void init_start(u64 arg1, u64 arg2, u64 arg3, u64 arg4, u64 arg5)$/;"	f
+init_start	user/init_clone.c	/^void init_start()$/;"	f
+init_start	user/lib.c	/^void init_start(u64 arg1, u64 arg2, u64 arg3, u64 arg4, u64 arg5)$/;"	f
+init_swapper	context.c	/^void init_swapper()$/;"	f
+inode	include/file.h	/^    struct inode * inode;$/;"	m	struct:file	typeref:struct:file::inode
+inode	include/fs.h	/^    struct inode* inode[NUM_FILES];$/;"	m	struct:super_block	typeref:struct:super_block::inode
+inode	include/fs.h	/^struct inode{$/;"	s
+inode_no	include/fs.h	/^    u32 inode_no;$/;"	m	struct:inode
+install_apic_mapping	apic.c	/^void install_apic_mapping(u64 pl4)$/;"	f
+install_gdt	idt.c	/^static void  install_gdt(struct IDTR *gdt)$/;"	f	file:
+install_idt	idt.c	/^static void install_idt()$/;"	f	file:
+install_os_pts	context.c	/^static int install_os_pts(u32 pl4)$/;"	f	file:
+install_page_table	entry.c	/^void install_page_table(struct exec_context *ctx, u64 addr, u64 error_code) {$/;"	f
+install_ptable	context.c	/^u32 install_ptable(unsigned long base, struct  mm_segment *mm, u64 address, u32 upfn)$/;"	f
+install_ptable_multi	context.c	/^static u32 install_ptable_multi(unsigned long pgd, unsigned long start, int count, int write)$/;"	f	file:
+invalidate_pte	context.c	/^u32 invalidate_pte(struct exec_context *ctx, unsigned long addr)$/;"	f
+invlpg	cfork.c	/^static inline void invlpg(unsigned long addr) {$/;"	f	file:
+invoke_dsh	shell.c	/^void invoke_dsh(void)$/;"	f
+invoke_sync_signal	entry.c	/^long invoke_sync_signal(int signo, u64 *ustackp, u64 *urip) $/;"	f
+inw	include/types.h	/^static inline u16 inw(u16 port)$/;"	f
+irq_stack	idt.c	/^static unsigned long irq_stack;$/;"	v	file:
+is_apic_base	apic.c	/^int is_apic_base (u64 pfn)$/;"	f
+is_empty	include/lib.h	46;"	d
+is_ropen	include/pipe.h	/^    int is_ropen;$/;"	m	struct:pipe_info
+is_set	include/lib.h	14;"	d
+is_valid	include/fs.h	/^    int is_valid;$/;"	m	struct:inode
+is_valid_inode	fs.c	/^static int is_valid_inode( struct inode *inode )$/;"	f	file:
+is_wopen	include/pipe.h	/^    int is_wopen;$/;"	m	struct:pipe_info
+ist	include/idt.h	/^                               u8 ist;   \/*Only the 3-LSBs*\/$/;"	m	struct:idt_entry
+ist1_high	include/idt.h	/^             u32 ist1_high;$/;"	m	struct:tss
+ist1_low	include/idt.h	/^             u32 ist1_low;$/;"	m	struct:tss
+kbd_read	kbd.c	/^void kbd_read(char *s){$/;"	f
+kbd_reboot	kbd.c	/^void kbd_reboot(void)$/;"	f
+kbd_status	include/kbd.h	/^static u8 kbd_status; \/*Global KBD status *\/$/;"	v
+kbmap_base	include/kbd.h	/^static const char kbmap_base[128] = {$/;"	v
+kbmap_upper	include/kbd.h	/^static const char kbmap_upper[128] = {$/;"	v
+kmain	main.c	/^int kmain(unsigned long magic)$/;"	f
+last_free_pos	include/memory.h	/^                   u32 last_free_pos;$/;"	m	struct:page_list
+len	include/types.h	/^       u64 len;$/;"	m	struct:multiboot_memory_map
+limit	include/idt.h	/^               u16 limit;$/;"	m	struct:IDTR
+limit_high	include/idt.h	/^                    u8 limit_high:4,$/;"	m	struct:gdt_entry
+limit_low	include/idt.h	/^                    u16 limit_low;$/;"	m	struct:gdt_entry
+list	include/types.h	/^struct list{$/;"	s
+list_all_files	include/fs.h	/^    void (*list_all_files) (struct super_block *sb, void *buf );$/;"	m	struct:sb_operations
+list_pfn_info	include/page.h	/^struct pfn_info_list list_pfn_info;$/;"	v	typeref:struct:pfn_info_list
+look_up_hint_addr	mmap.c	/^long look_up_hint_addr(struct vm_area* vm, u64 addr, int length, int prot, int flags)$/;"	f
+lookup_inode	fs.c	/^struct inode* lookup_inode(char *filename)$/;"	f
+lookup_inode	include/fs.h	/^    struct inode* (*lookup_inode) (struct super_block *sb, char *filename);$/;"	m	struct:sb_operations	typeref:struct:sb_operations::lookup_inode
+lseek	include/file.h	/^    long (*lseek)(struct file *filep, long offset, int whence);$/;"	m	struct:fileops
+lseek	user/lib.c	/^long lseek(int fd, long offset, int whence)$/;"	f
+lw_context_switches	include/entry.h	/^                u64 lw_context_switches;$/;"	m	struct:os_stats
+lw_context_switches	user/ulib.h	/^                u64 lw_context_switches;$/;"	m	struct:os_stats
+main	user/init.c	/^int main(u64 arg1, u64 arg2, u64 arg3, u64 arg4, u64 arg5)$/;"	f
+main	user/init_args.c	/^static int main(u64 arg1, u64 arg2, u64 arg3, u64 arg4, u64 arg5)$/;"	f	file:
+main	user/init_clone.c	/^static int main()$/;"	f	file:
+map_physical_page	context.c	/^u32 map_physical_page(unsigned long base, u64 address, u32 access_flags, u32 upfn)$/;"	f
+map_vm_area	mmap.c	/^u64 map_vm_area(struct vm_area* vm, u64 start_addr, int length, int prot)$/;"	f
+max_pos	include/fs.h	/^    unsigned int max_pos;   \/\/ ending position of file data$/;"	m	struct:inode
+mb_header	boot_64.S	/^mb_header:$/;"	l
+memcmp	lib.c	/^int memcmp(char *s, char *d, u32 len)$/;"	f
+memcpy	lib.c	/^int memcpy(char *d, char *s, u32 size)$/;"	f
+memhigh	include/types.h	/^                     u32 memhigh;$/;"	m	struct:multiboot_info
+memlow	include/types.h	/^                     u32 memlow;$/;"	m	struct:multiboot_info
+memory_map_addr	include/types.h	/^                     u32 memory_map_addr;$/;"	m	struct:multiboot_info
+memory_map_length	include/types.h	/^                     u32 memory_map_length;$/;"	m	struct:multiboot_info
+mm_segment	include/context.h	/^struct mm_segment{$/;"	s
+mmap	user/lib.c	/^void* mmap(void *addr, int length, int prot, int flags)$/;"	f
+mmap_page_faults	include/entry.h	/^                u64 mmap_page_faults;$/;"	m	struct:os_stats
+mmap_page_faults	user/ulib.h	/^                u64 mmap_page_faults;$/;"	m	struct:os_stats
+mms	include/context.h	/^             struct mm_segment mms[MAX_MM_SEGS];$/;"	m	struct:exec_context	typeref:struct:exec_context::mm_segment
+mode	include/file.h	/^    u32 mode;$/;"	m	struct:file
+mode	include/fs.h	/^    u32 mode;$/;"	m	struct:inode
+mods_base	include/types.h	/^                     u32 mods_base;$/;"	m	struct:multiboot_info
+mprotect	user/lib.c	/^int mprotect(void *addr, int length, int prot)$/;"	f
+multiboot_info	include/types.h	/^struct multiboot_info{$/;"	s
+multiboot_memory_map	include/types.h	/^struct multiboot_memory_map$/;"	s
+munmap	user/lib.c	/^int munmap(void *addr, int length)$/;"	f
+name	include/context.h	/^             char name[CNAME_MAX];$/;"	m	struct:exec_context
+next	include/types.h	/^                 struct node *next;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::node
+next_free	include/context.h	/^                   unsigned long next_free; $/;"	m	struct:mm_segment
+next_free	include/memory.h	/^                  u32 next_free;$/;"	m	struct:nodealloc_memory
+node	include/types.h	/^struct node{$/;"	s
+node_alloc	memory.c	/^struct node *node_alloc()$/;"	f
+node_free	memory.c	/^void node_free(struct node *n)$/;"	f
+nodealloc_memory	include/memory.h	/^struct nodealloc_memory{$/;"	s
+nodemem	memory.c	/^static struct nodealloc_memory nodemem;$/;"	v	typeref:struct:nodealloc_memory	file:
+nodes	include/memory.h	/^                  void *nodes;$/;"	m	struct:nodealloc_memory
+num_files	include/fs.h	/^    int num_files;$/;"	m	struct:super_block
+num_free	include/memory.h	/^                  u32 num_free;$/;"	m	struct:nodealloc_memory
+num_modules	include/types.h	/^                     u32 num_modules;$/;"	m	struct:multiboot_info
+num_processes	include/entry.h	/^                u64 num_processes;$/;"	m	struct:os_stats
+num_processes	user/ulib.h	/^                u64 num_processes;$/;"	m	struct:os_stats
+num_vm_area	include/entry.h	/^                u64 num_vm_area;$/;"	m	struct:os_stats
+num_vm_area	user/ulib.h	/^                u64 num_vm_area;$/;"	m	struct:os_stats
+numticks	schedule.c	/^static u64 numticks;$/;"	v	file:
+offp	include/file.h	/^    u32 offp;$/;"	m	struct:file
+offset_high	include/idt.h	/^                               u32 offset_high;$/;"	m	struct:idt_entry
+offset_low	include/idt.h	/^                               u16 offset_low;$/;"	m	struct:idt_entry
+offset_mid	include/idt.h	/^                               u16 offset_mid;$/;"	m	struct:idt_entry
+open	include/fs.h	/^    int (*open) (struct inode *inode);$/;"	m	struct:inode
+open	user/lib.c	/^int open(char * filename, int flags, ...)$/;"	f
+open_standard_IO	file.c	/^int open_standard_IO(struct exec_context *ctx, int type)$/;"	f
+os_alloc	memory.c	/^void *os_alloc(u32 size)$/;"	f
+os_configs	include/entry.h	/^struct os_configs{$/;"	s
+os_configs	user/ulib.h	/^struct os_configs{$/;"	s
+os_free	memory.c	/^void os_free(void *ptr, u32 size)$/;"	f
+os_page_alloc	memory.c	/^void *os_page_alloc(u32 region)$/;"	f
+os_page_free	memory.c	/^void os_page_free(u32 region, void *paddress)$/;"	f
+os_pfn_alloc	memory.c	/^u32 os_pfn_alloc(u32 region)$/;"	f
+os_pfn_free	memory.c	/^void os_pfn_free(u32 region, u64 pfn)$/;"	f
+os_pmd_pfn	context.c	/^static u64 os_pmd_pfn;$/;"	v	file:
+os_rsp	include/context.h	/^             u64 os_rsp;$/;"	m	struct:exec_context
+os_stack_pfn	include/context.h	/^             u32 os_stack_pfn;  \/*Must be unique for every context*\/$/;"	m	struct:exec_context
+os_stats	include/entry.h	/^struct os_stats{$/;"	s
+os_stats	user/ulib.h	/^struct os_stats{$/;"	s
+osalloc_base	memory.c	/^static unsigned long osalloc_base;$/;"	v	file:
+osalloc_chunk	include/memory.h	/^struct osalloc_chunk{$/;"	s
+osmap	memory.c	/^extern void* osmap(u64 pfn)$/;"	f
+outb	include/types.h	/^static inline void outb(u16 port, u8 value){$/;"	f
+outw	include/types.h	/^static inline void outw(u16 port, u16 value){$/;"	f
+padd	include/types.h	/^                     char padd[0];$/;"	m	struct:multiboot_info
+page_faults	include/entry.h	/^                u64 page_faults;$/;"	m	struct:os_stats
+page_faults	user/ulib.h	/^                u64 page_faults;$/;"	m	struct:os_stats
+page_list	include/memory.h	/^struct page_list{$/;"	s
+pageset	user/init_args.c	/^static void pageset(u64 *p, u64 val)$/;"	f	file:
+parse_init	shell.c	/^void parse_init(char *cmd, struct init_args *args)$/;"	f
+pause	include/types.h	19;"	d
+pending_signal_bitmap	include/context.h	/^             u32 pending_signal_bitmap;      \/*Pending signal bitmap*\/$/;"	m	struct:exec_context
+pfn_info	include/page.h	/^struct pfn_info{$/;"	s
+pfn_info_list	include/page.h	/^struct pfn_info_list{$/;"	s
+pgd	include/context.h	/^             u32 pgd;     \/*CR3 should point to this PFN when schedulled*\/$/;"	m	struct:exec_context
+pgl_bmap_clear	memory.c	18;"	d	file:
+pgl_bmap_set	memory.c	11;"	d	file:
+pglists	memory.c	/^static struct page_list pglists[MAX_REG];$/;"	v	typeref:struct:page_list	file:
+physinfo	user/lib.c	/^long physinfo()$/;"	f
+pick_next_context	schedule.c	/^struct exec_context *pick_next_context(struct exec_context *ctx) $/;"	f
+pid	include/context.h	/^             u32 pid;$/;"	m	struct:exec_context
+pipe	include/file.h	/^    struct pipe_info * pipe;$/;"	m	struct:file	typeref:struct:file::pipe_info
+pipe	user/lib.c	/^int pipe(int fd[2])$/;"	f
+pipe_buff	include/pipe.h	/^    char* pipe_buff;    \/\/ pipe buffer$/;"	m	struct:pipe_info
+pipe_close	pipe.c	/^long pipe_close(struct file *filep)$/;"	f
+pipe_info	include/pipe.h	/^struct pipe_info{$/;"	s
+pipe_read	pipe.c	/^int pipe_read(struct file *filep, char *buff, u32 count)$/;"	f
+pipe_write	pipe.c	/^int pipe_write(struct file *filep, char *buff, u32 count)$/;"	f
+pmap	user/lib.c	/^int pmap(int details)$/;"	f
+ppid	include/context.h	/^             u32 ppid;$/;"	m	struct:exec_context
+prev	include/types.h	/^                 struct node *prev;$/;"	m	union:node::__anon5	typeref:struct:node::__anon5::node
+print_user	lib.c	/^void print_user(char *user, int length)$/;"	f
+printf	user/lib.c	/^int printf(char *format,...)$/;"	f
+printk	lib.c	/^int printk(char *format,...)$/;"	f
+process_buffer	pipe.c	/^int process_buffer(struct pipe_info *pipe_info, int mode, char* buff, u32 count)$/;"	f
+process_state	include/schedule.h	/^enum process_state{$/;"	g
+pt_cleanup	context.c	/^static void pt_cleanup(u64 pfn,int level)$/;"	f	file:
+pt_walk	context.c	/^static u32 pt_walk(struct exec_context *ctx, u32 segment, u32 stack)$/;"	f	file:
+put_inode	fs.c	/^static int put_inode(struct inode *inode)$/;"	f	file:
+r10	include/context.h	/^                    u64 r10;$/;"	m	struct:user_regs
+r11	include/context.h	/^                    u64 r11;$/;"	m	struct:user_regs
+r12	include/context.h	/^                    u64 r12;$/;"	m	struct:user_regs
+r13	include/context.h	/^                    u64 r13;$/;"	m	struct:user_regs
+r14	include/context.h	/^                    u64 r14;$/;"	m	struct:user_regs
+r15	include/context.h	/^                    u64 r15;$/;"	m	struct:user_regs
+r8	include/context.h	/^                    u64 r8;$/;"	m	struct:user_regs
+r8	include/init.h	/^                  u64 r8;$/;"	m	struct:init_args
+r9	include/context.h	/^                    u64 r9;$/;"	m	struct:user_regs
+rand_rdtsc	user/init_args.c	/^u32 rand_rdtsc()$/;"	f
+rax	include/context.h	/^                    u64 rax;$/;"	m	struct:user_regs
+rbp	include/context.h	/^                    u64 rbp;$/;"	m	struct:user_regs
+rbx	include/context.h	/^                    u64 rbx;$/;"	m	struct:user_regs
+rcx	include/context.h	/^                    u64 rcx;$/;"	m	struct:user_regs
+rcx	include/init.h	/^                  u64 rcx;$/;"	m	struct:init_args
+rdi	include/context.h	/^                    u64 rdi;$/;"	m	struct:user_regs
+rdi	include/init.h	/^                  u64 rdi;$/;"	m	struct:init_args
+rdx	include/context.h	/^                    u64 rdx;$/;"	m	struct:user_regs
+rdx	include/init.h	/^                  u64 rdx;$/;"	m	struct:init_args
+read	include/file.h	/^    int (*read)(struct file *filep, char * buff, u32 count);$/;"	m	struct:fileops
+read	include/fs.h	/^    int (*read) (struct inode *inode, char *buf, int count, int *offp);$/;"	m	struct:inode
+read	user/lib.c	/^int read(int fd,void * buf, int count)$/;"	f
+read_gdt	idt.c	/^static struct IDTR * read_gdt()$/;"	f	file:
+read_idt	idt.c	/^static struct IDTR * read_idt()$/;"	f	file:
+read_pos	include/pipe.h	/^    int read_pos;       \/\/Last Read position$/;"	m	struct:pipe_info
+real_start	boot_64.S	/^real_start:$/;"	l
+ref_count	include/file.h	/^    u32 ref_count;$/;"	m	struct:file
+ref_count	include/fs.h	/^    u32 ref_count;$/;"	m	struct:inode
+refcount	include/page.h	/^    u8 refcount;$/;"	m	struct:pfn_info
+regs	include/context.h	/^             struct user_regs regs;          \/*Saved copy of user registers*\/$/;"	m	struct:exec_context	typeref:struct:exec_context::user_regs
+remove_apic_mapping	apic.c	/^void remove_apic_mapping(u64 pl4)$/;"	f
+remove_inode	include/fs.h	/^    int (*remove_inode) (struct super_block *sb, struct inode *inode);$/;"	m	struct:sb_operations
+reserved	include/idt.h	/^             u32 reserved;$/;"	m	struct:tss
+reset_pfn_info	page.c	/^void reset_pfn_info(u32 index){$/;"	f
+rest	include/idt.h	/^             char rest[0];$/;"	m	struct:tss
+ret_from_user	boot_64.S	/^ret_from_user:$/;"	l
+return_from_os	boot_64.S	/^return_from_os:$/;"	l
+rsi	include/context.h	/^                    u64 rsi;$/;"	m	struct:user_regs
+rsi	include/init.h	/^                  u64 rsi;$/;"	m	struct:init_args
+rsp0_high	include/idt.h	/^             u32 rsp0_high;$/;"	m	struct:tss
+rsp0_low	include/idt.h	/^             u32 rsp0_low;$/;"	m	struct:tss
+s16	include/types.h	/^typedef int      short s16;$/;"	t
+s16	user/ulib.h	/^typedef int      short s16;$/;"	t
+s32	include/types.h	/^typedef 	 int s32;$/;"	t
+s32	user/ulib.h	/^typedef 	 int s32;$/;"	t
+s8	include/types.h	/^typedef char	      s8;$/;"	t
+s8	user/ulib.h	/^typedef char	      s8;$/;"	t
+s_pos	include/fs.h	/^    unsigned int s_pos;     \/\/starting position of file$/;"	m	struct:inode
+saved_ebp	boot_64.S	/^saved_ebp:$/;"	l
+sb	include/fs.h	/^    struct super_block *sb;$/;"	m	struct:inode	typeref:struct:inode::super_block
+sb_op	include/fs.h	/^    struct sb_operations *sb_op;$/;"	m	struct:super_block	typeref:struct:super_block::sb_operations
+sb_operations	include/fs.h	/^struct sb_operations{$/;"	s
+schedule	schedule.c	/^void schedule(struct exec_context *new_ctx) $/;"	f
+segment	include/idt.h	/^                               u16 segment;$/;"	m	struct:idt_entry
+serial_getc	serial.c	/^static u8 serial_getc()$/;"	f	file:
+serial_init	serial.c	/^void serial_init()$/;"	f
+serial_putc	serial.c	/^static void serial_putc(u8 ch)$/;"	f	file:
+serial_read	serial.c	/^void serial_read(char *buf)$/;"	f
+serial_write	serial.c	/^void serial_write(char *buf)$/;"	f
+set_bit	include/lib.h	11;"	d
+set_current_ctx	context.c	/^void set_current_ctx(struct exec_context *ctx)$/;"	f
+set_pfn_info	page.c	/^void set_pfn_info(u32 index){$/;"	f
+set_process_state	context.c	/^int set_process_state(struct exec_context *ctx, u32 state)$/;"	f
+set_tss_stack_ptr	idt.c	/^void set_tss_stack_ptr(struct exec_context *ctx)$/;"	f
+setup_child_context	context.c	/^void setup_child_context(struct exec_context *child)$/;"	f
+setup_gdt_tss	idt.c	/^void setup_gdt_tss(struct IDTR * gdt)$/;"	f
+setup_idt	idt.c	/^void setup_idt()$/;"	f
+sighandlers	include/context.h	/^             void* sighandlers[MAX_SIGNALS]; \/*Signal handler pointers to functions (in user space)*\/$/;"	m	struct:exec_context
+signal	user/init_args.c	/^u64 signal(int num, void *handler)$/;"	f
+signal	user/init_clone.c	/^u64 signal(int num, void *handler)$/;"	f
+signal	user/lib.c	/^long signal(int num, void *handler)$/;"	f
+signal_handler	user/init_clone.c	/^static void signal_handler(int signal)$/;"	f	file:
+signals	include/schedule.h	/^enum signals{$/;"	g
+size	include/memory.h	/^                   u32 size;$/;"	m	struct:page_list
+size	include/types.h	/^              u64 size;$/;"	m	struct:list
+size	include/types.h	/^       u32 size;$/;"	m	struct:multiboot_memory_map
+sleep	user/init_args.c	/^u64 sleep(int ticks)$/;"	f
+sleep	user/init_clone.c	/^u64 sleep(int ticks)$/;"	f
+sleep	user/lib.c	/^long sleep(int ticks)$/;"	f
+sprintf	lib.c	/^int sprintf(char *out, char *format, ...)$/;"	f
+sprintk	lib.c	/^int sprintk(char *out, char *format, ...)$/;"	f
+start	include/context.h	/^                   unsigned long start;$/;"	m	struct:mm_segment
+start	include/page.h	/^    void * start;$/;"	m	struct:pfn_info_list
+start_address	include/memory.h	/^                   u64 start_address;$/;"	m	struct:page_list
+state	include/context.h	/^             u8 state;     \/*Can be any of the states mentioned in schedule.h*\/$/;"	m	struct:exec_context
+stats	main.c	/^struct os_stats *stats = NULL;$/;"	v	typeref:struct:os_stats
+std_close	file.c	/^long std_close(struct file *filep)$/;"	f
+strcat	lib.c	/^char *strcat(char *dst,char *app){$/;"	f
+strcmp	lib.c	/^int strcmp(char *s, char *d){$/;"	f
+strlen	lib.c	/^int strlen(char *ptr){$/;"	f
+super_block	fs.c	/^struct super_block* super_block; $/;"	v	typeref:struct:super_block
+super_block	include/fs.h	/^struct super_block{$/;"	s
+swapper_invocations	include/entry.h	/^                u64 swapper_invocations;$/;"	m	struct:os_stats
+swapper_invocations	user/ulib.h	/^               u64 swapper_invocations;$/;"	m	struct:os_stats
+swapper_task	context.c	/^static void swapper_task()$/;"	f	file:
+syms	include/types.h	/^                     u8 syms[12];$/;"	m	struct:multiboot_info
+syscalls	include/entry.h	/^                u64 syscalls;$/;"	m	struct:os_stats
+syscalls	user/ulib.h	/^                u64 syscalls;$/;"	m	struct:os_stats
+tail	include/types.h	/^              struct node *tail;$/;"	m	struct:list	typeref:struct:list::node
+thread1	user/init_clone.c	/^static void thread1(void)$/;"	f	file:
+thread2	user/init_clone.c	/^static void thread2(void)$/;"	f	file:
+ticks	include/entry.h	/^                u64 ticks;$/;"	m	struct:os_stats
+ticks	user/ulib.h	/^                u64 ticks;$/;"	m	struct:os_stats
+ticks_to_alarm	include/context.h	/^             u32 ticks_to_alarm;   \/*Remaining ticks before raising SIGALRM*\/$/;"	m	struct:exec_context
+ticks_to_sleep	include/context.h	/^             u32 ticks_to_sleep;    \/*Remaining ticks before sleep expires*\/$/;"	m	struct:exec_context
+tss	include/idt.h	/^struct tss{$/;"	s
+tss_page	idt.c	/^static unsigned long tss_page;$/;"	v	file:
+type	include/context.h	/^             u8 type;$/;"	m	struct:exec_context
+type	include/file.h	/^    u32 type;$/;"	m	struct:file
+type	include/fs.h	/^    u32 type;$/;"	m	struct:inode
+type	include/memory.h	/^                   u32 type;$/;"	m	struct:page_list
+type	include/types.h	/^       u32 type;$/;"	m	struct:multiboot_memory_map
+u16	include/types.h	/^typedef unsigned short u16;$/;"	t
+u16	user/ulib.h	/^typedef unsigned short u16;$/;"	t
+u32	include/types.h	/^typedef unsigned int u32;$/;"	t
+u32	user/ulib.h	/^typedef unsigned int u32;$/;"	t
+u64	include/types.h	/^typedef unsigned long u64;$/;"	t
+u64	user/ulib.h	/^typedef unsigned long u64;$/;"	t
+u8	include/types.h	/^typedef unsigned char u8;$/;"	t
+u8	user/ulib.h	/^typedef unsigned char u8;$/;"	t
+unused	include/idt.h	/^                               u32 unused;$/;"	m	struct:idt_entry
+unused	include/idt.h	/^             u32 unused[6];$/;"	m	struct:tss
+used_mem	include/context.h	/^             u16 used_mem;$/;"	m	struct:exec_context
+used_memory	include/entry.h	/^                u64 used_memory;$/;"	m	struct:os_stats
+used_memory	user/ulib.h	/^                u64 used_memory;$/;"	m	struct:os_stats
+user_reg_pages	include/entry.h	/^                u64 user_reg_pages; \/\/ used to check copy-on-write $/;"	m	struct:os_stats
+user_reg_pages	user/ulib.h	/^                u64 user_reg_pages; \/\/ used to check copy-on-write $/;"	m	struct:os_stats
+user_regs	include/context.h	/^struct user_regs{$/;"	s
+ustrcmp	user/lib.c	/^int ustrcmp(char *s, char *d){$/;"	f
+va_arg	include/lib.h	19;"	d
+va_arg	user/ulib.h	15;"	d
+va_end	include/lib.h	18;"	d
+va_end	user/ulib.h	14;"	d
+va_list	include/lib.h	/^typedef __builtin_va_list va_list;$/;"	t
+va_list	user/ulib.h	/^typedef __builtin_va_list va_list;$/;"	t
+va_start	include/lib.h	17;"	d
+va_start	user/ulib.h	13;"	d
+validate_page_table	entry.c	/^int validate_page_table(struct exec_context *ctx, u64 addr, int dump) {$/;"	f
+validate_request	pipe.c	/^u8 validate_request(struct file *filep, u32 count, u8 mode)$/;"	f
+value	include/types.h	/^              u64 value;$/;"	m	struct:node
+vfork	user/lib.c	/^long vfork()$/;"	f
+vfork_copy_mm	cfork.c	/^void vfork_copy_mm(struct exec_context *child, struct exec_context *parent ){$/;"	f
+vfork_exit_handle	cfork.c	/^void vfork_exit_handle(struct exec_context *ctx){$/;"	f
+vm_area	include/context.h	/^             struct vm_area * vm_area;$/;"	m	struct:exec_context	typeref:struct:exec_context::vm_area
+vm_area	include/context.h	/^struct vm_area{$/;"	s
+vm_area_dump	include/mmap.h	/^static int vm_area_dump(struct vm_area *vm, int details)$/;"	f
+vm_area_map	mmap.c	/^long vm_area_map(struct exec_context *current, u64 addr, int length, int prot, int flags)$/;"	f
+vm_area_mprotect	mmap.c	/^int vm_area_mprotect(struct exec_context *current, u64 addr, int length, int prot)$/;"	f
+vm_area_pagefault	mmap.c	/^int vm_area_pagefault(struct exec_context *current, u64 addr, int error_code)$/;"	f
+vm_area_unmap	mmap.c	/^int vm_area_unmap(struct exec_context *current, u64 addr, int length)$/;"	f
+vm_end	include/context.h	/^        unsigned long vm_end;   \/\/ Ending address of the vm_area$/;"	m	struct:vm_area
+vm_map_populate	mmap.c	/^void vm_map_populate(u64 pgd, u64 addr, u32 prot, u32 page_count)$/;"	f
+vm_next	include/context.h	/^        struct vm_area *vm_next; \/\/ Pointer to the next vm_area$/;"	m	struct:vm_area	typeref:struct:vm_area::vm_area
+vm_start	include/context.h	/^        unsigned long vm_start; \/\/ Starting address of the vm_area$/;"	m	struct:vm_area
+vprintf	lib.c	/^static int vprintf(char *buf,char *format,va_list args){$/;"	f	file:
+vuprintf	user/lib.c	/^static int vuprintf(char *buf,char *format,va_list args){$/;"	f	file:
+write	include/file.h	/^    int (*write)(struct file *filep, char * buff, u32 count); \/\/seek implementation$/;"	m	struct:fileops
+write	include/fs.h	/^    int (*write) (struct inode *inode, char *buf, int count, int *offp);$/;"	m	struct:inode
+write	user/init_args.c	/^static long write(char *ptr, int size)$/;"	f	file:
+write	user/init_clone.c	/^static long write(char *ptr, int size)$/;"	f	file:
+write	user/lib.c	/^int write(int fd, void * buf, int count)$/;"	f
+write_pos	include/pipe.h	/^    int write_pos;      \/\/ Last Write position$/;"	m	struct:pipe_info
+zero	user/lib.c	/^static void zero(char *ptr,int length){$/;"	f	file:
