@@ -3,6 +3,9 @@ NemOS: A Framework for OS-Architecture Study of Hybrid Memory
 
 ## Build gem5 using instructions 
 =====================================
+
+1> The gem5 folder contains **ssp** modifications, build gem5 by following
+
 https://www.gem5.org/documentation/learning_gem5/part1/building/
 
 ## Build gemOS 
@@ -18,3 +21,26 @@ https://www.gem5.org/documentation/learning_gem5/part1/building/
 ======================================
 
 1> uncompress **gemOS.img** disk image in **bench_diskimages**
+
+2> use **run_NemOS.sh** script as below to start **NemOS**,**run_NemOS.sh** takes **output** folder as argument to save gem5 stats 
+
+**run_NemOS.sh path_to_output**
+
+3> Now **gem5** starts and you need to connect to gem5 using telnet in a different terminal
+
+**telnet localhost 3456**, the port number is printed by gem5 as " Listening for connections on port 3456"
+
+4>the terminal after connecting to "telnet" will show gemOS prompt as below
+
+**GemOS# **
+
+5> To run your user program in **init.c**, type **init** command on **GemOS# ** as below
+
+**GemOS# init **
+
+6> The init program executes and you can see output
+
+7> To exit **gemOS** run, **exit** command as below on **GemOS# **
+
+**GemOS# exit**
+
