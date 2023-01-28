@@ -54,3 +54,5 @@ https://www.gem5.org/documentation/learning_gem5/part1/building/
 2> Disk images for SSP benchmarks are present in **bench_diskimages**
 
 3> unzip the disk image and pass it as argument to **--disk-image** argument in **run_NemOS.sh**
+
+4> Follow steps under **Run NemOS** to start NemOS
