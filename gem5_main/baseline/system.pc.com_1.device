@@ -1,0 +1,22 @@
+            Starting IITK gemOS ......
+Initial Segment Map: cs = 0x8 ds = 0x10 ss = 0x10
+ESP=0x1130D8 EBP=0x113148
+cr0=0xE0000011 cr3=0x70000 cr4=0x20
+Initializing memory
+base = 0x0 limit low = 0x0 high=0x0 ac_byte = 0x0 flags=0x0
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x9A flags=0xA
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x92 flags=0xE
+base = 0x0 limit low = 0xFFFF high=0xF ac_byte = 0x8B flags=0xA
+Initializing user segments
+Initializing APIC
+gemOS shell... 
+GemOS# Setting up init process ...
+Page table setup done, launching init ...
+Dumping gem5 stats...
+Resetting gem5 stats...
+Dumping gem5 stats...
+Resetting gem5 stats...
+Cleaned up init process
+GemOS shell again!
+GemOS# Shutting down...
+
